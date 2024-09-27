@@ -60,6 +60,3 @@
 - 세균 🦠
 - 벌레 🪰
 </details>
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&width=1374&animation=fadeIn&fontSize=80&fontColor=ffffff&fontAlignY=35)
-
