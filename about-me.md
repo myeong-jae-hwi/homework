@@ -24,9 +24,12 @@
 - 대한민국(KR) 
   
 ### 😎 MBTI
-ENTJ
+- ENTJ
 
 <img width="1374" alt="image" src="https://github.com/user-attachments/assets/bfc19021-72b8-4c9d-9527-10e1b4420650">
+
+### 🏠 거주지 
+- 대전광역시
 
 ### 🧩 좋아하는 것들
 
