@@ -3,6 +3,7 @@
 <br>
 
 ## 🙋‍♂️ About ME 
+
 | **명재휘** | 
 | :------: |
 | [<img src="https://avatars.githubusercontent.com/u/72872676?v=4" height=100 width=100> <br/> @myeong-jae-hwi](https://github.com/myeong-jae-hwi) 
@@ -21,7 +22,7 @@ ENTJ
 ### 🧩 좋아하는 것들
 
 <details>
-<summary>접기/펼치기</summary>
+<summary>접기 / 펼치기</summary>
 
 <br>
 
@@ -34,7 +35,7 @@ ENTJ
 ### 🚨 싫어하는 것들
 
 <details>
-<summary>접기/펼치기</summary>
+<summary>접기 / 펼치기</summary>
 
 <br>
 
@@ -44,3 +45,7 @@ ENTJ
 - 폭탄 💣
 </details>
 
+### 📄 Page
+👉 티스토리 링크 : https://re-hwi.tistory.com
+
+👉 깃허브 링크 : https://github.com/myeong-jae-hwi
