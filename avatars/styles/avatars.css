@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-color: #4cfe88;
+  --gray-color: #dbdbdb;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 64px 64px 64px 64px;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  display: flex; /* 아이콘과 이미지를 한 줄에 배치하기 위한 설정 */
+  justify-content: flex-end; /* float 대신 사용할 수 있도록 우측 정렬 */
+}
+
+img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.active,
+.inactive {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  float: right;
+  margin-top: 53px;
+  margin-right: 5px;
+}
+
+.active {
+  background-color: var(--green-color);
+}
+
+.inactive {
+  background-color: var(--gray-color);
+}
