@@ -2,7 +2,7 @@
 
 ## 과제 1 📌
 
-float 를 이용하여 레이아웃을 구현하라
+### float 를 이용하여 레이아웃을 구현하라
 
 ### 레이아웃 요소
 
@@ -25,13 +25,13 @@ float 를 이용하여 레이아웃을 구현하라
 
 ### 최종 결과
 
-<img width="300" src="./images/image.png" alt="최종결과">
+<img width="500" src="./images/image.png" alt="최종결과">
 
 <br><br><br>
 
 ## 과제 2 📌
 
-flex를 이용해 레이아웃을 구현하라
+### flex를 이용해 레이아웃을 구현하라
 
 ### 레이아웃 요소
 
@@ -58,4 +58,4 @@ flex를 이용해 레이아웃을 구현하라
 
 ### 최종 결과
 
-<img width="300" src="./images/image-flex.png" alt="레이아웃 디테일">
+<img width="500" src="./images/image-flex.png" alt="레이아웃 디테일">
