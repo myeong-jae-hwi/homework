@@ -7,4 +7,4 @@
 👉🏻 [About me!](https://github.com/myeong-jae-hwi/home-work/blob/main/about-me.md)
 
 ### Avatars
-👉🏻 [Avatars](https://github.com/myeong-jae-hwi/home-work/blob/main/about-me.md)
+👉🏻 [Avatars](https://github.com/myeong-jae-hwi/homework/blob/main/md/avatars.md)
