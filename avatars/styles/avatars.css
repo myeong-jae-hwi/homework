@@ -9,26 +9,47 @@
   --gray-color: #dbdbdb;
 }
 
-.container {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* ======================== 과제 1 ========================  */
+
+.grid-container {
   display: grid;
   grid-template-columns: 64px 64px 64px 64px;
   gap: 20px;
 }
 
-.item {
+.grid-container .item {
   position: relative;
-  display: flex; /* 아이콘과 이미지를 한 줄에 배치하기 위한 설정 */
-  justify-content: flex-end; /* float 대신 사용할 수 있도록 우측 정렬 */
+  display: flex;
+  justify-content: flex-end;
 }
 
-img {
+.grid-container img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
 
-.active,
-.inactive {
+.grid-container .active,
+.grid-container .inactive {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -38,10 +59,47 @@ img {
   margin-right: 5px;
 }
 
-.active {
+.grid-container .active {
   background-color: var(--green-color);
 }
 
-.inactive {
+.grid-container .inactive {
+  background-color: var(--gray-color);
+}
+
+/* ======================= 과제 2 ========================= */
+
+.flex-container {
+  display: flex;
+  width: 336px;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  position: relative;
+  margin: 10px;
+}
+
+.flex-item img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.flex-item .active,
+.flex-item .inactive {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 1px;
+  right: 1px;
+}
+
+.flex-item .active {
+  background-color: var(--green-color);
+}
+
+.flex-item .inactive {
   background-color: var(--gray-color);
 }
