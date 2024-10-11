@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/login.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="sr-only">네이버 로그인 폼</h1>
+      <div class="logo">
+        <img src="../assets/login/img/logo.svg" alt="네이버 로고" />
+      </div>
+    </header>
+    <main class="main">
+      <form action="/" class="login-form">
+        <input class="login-form__input" type="email" required placeholder="fastcampus" />
+        <label for="login-form__input" class="sr-only">email 입력 폼</label>
+        <div class="error-container">
+          <p class="login-form_error">아이디는 이메일 형식으로 입력해주세요.</p>
+        </div>
+
+        <input class="login-form__input" type="password" pattern=".{10,}" required />
+        <label for="login-form__input" class="sr-only">비밀번호 입력 폼</label>
+        <div class="error-container">
+          <p class="login-form_error">비밀번호는 10자리 이상 입력해주세요.</p>
+        </div>
+
+        <button class="login-form__btn" type="submit">로그인</button>
+        <label for="login-form__btn" class="sr-only">로그인 버튼</label>
+
+        <div class="checkbox-container">
+          <label class="checkbox_label">
+            <input type="checkbox" />
+            <span class="checkbox_icon" tabindex="0"></span>
+            <span class="checkbox_text">로그인 상태 유지</span>
+          </label>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
