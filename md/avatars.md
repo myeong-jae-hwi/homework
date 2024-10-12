@@ -10,7 +10,7 @@
 2. float를 오른쪽으로 주어 활동상태 요소를 오른쪽에 오도록 지정랬습니다.
 3. 활동 상태 요소의 margin을 이용해 세부 조정을 했습니다.
 
-<img width="300" src="./images/detail.png" alt="레이아웃 디테일">
+<img width="300" src="./images/avatars/detail.png" alt="레이아웃 디테일">
 
 ### 접근성
 
@@ -25,7 +25,7 @@
 
 ### 최종 결과
 
-<img width="500" src="./images/image.png" alt="최종결과">
+<img width="500" src="./images/avatars/image.png" alt="최종결과">
 
 <br><br><br>
 
@@ -42,11 +42,11 @@
 
 레이아웃
 
-<img width="300" src="./images/image2.png" alt="레이아웃 디테일">
+<img width="300" src="./images/avatars/image2.png" alt="레이아웃 디테일">
 
 이미지
 
-<img width="300" src="./images/image3.png" alt="레이아웃 디테일">
+<img width="300" src="./images/avatars/image3.png" alt="레이아웃 디테일">
 
 ### 접근성
 
@@ -58,4 +58,4 @@
 
 ### 최종 결과
 
-<img width="500" src="./images/image-flex.png" alt="레이아웃 디테일">
+<img width="500" src="./images/avatars/image-flex.png" alt="레이아웃 디테일">
