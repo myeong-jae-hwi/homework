@@ -1,6 +1,6 @@
 # 과제. 네이버 로그인 폼 구현 ✅
 
-[👉 링크 바로가기](https://myeong-jae-hwi.github.io/homework/login/login.html){:target="_blank"}
+[👉 링크 바로가기](https://myeong-jae-hwi.github.io/homework/login/login.html)
 
 
 ## 목차📌
