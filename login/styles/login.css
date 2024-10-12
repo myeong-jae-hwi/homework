@@ -33,6 +33,7 @@
   /* 폰트 */
   --font-size-regular14: 0.875rem;
   --font-size-regular12: 0.75rem;
+  --font-size-regular16: 1rem;
 }
 
 body {
@@ -106,16 +107,16 @@ body {
     padding: 0.875rem;
     background-color: #fff;
     border: solid 1px var(--color-gray-10);
-    margin-bottom: 0.625rem;
-    margin-block-end: 0.625rem;
   }
 
   .error-container {
     width: 100%;
     inline-size: 100%;
     display: flex;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    margin-block: 0.3125rem;
     justify-content: flex-start;
-    align-items: center;
   }
 
   .login-form_error {
@@ -127,6 +128,7 @@ body {
   .login-form__input:focus {
     outline: none;
     border-color: var(--primary-color);
+    background-color: rgb(241, 245, 255);
   }
 
   .login-form__btn {
@@ -145,6 +147,12 @@ body {
     justify-content: flex-end;
     align-items: center;
     margin-top: 0.625rem;
+
+    @media (min-width: 768px) {
+      & {
+        justify-content: space-between;
+      }
+    }
   }
 
   input[type="checkbox"] {
@@ -176,6 +184,24 @@ body {
   .checkbox_label input:checked + .checkbox_icon::before {
     background: url("../../assets/login/img/checkbox.svg") no-repeat center;
     border: none;
+  }
+
+  .ipsec {
+    display: none;
+    a {
+      color: var(--base-font-color);
+      text-decoration: none;
+      font-size: var(--font-size-regular12);
+    }
+
+    @media (min-width: 768px) {
+      display: block;
+      font-size: var(--font-size-regular16);
+    }
+  }
+
+  #ip__state {
+    color: var(--color-gray-20);
   }
 
   input:invalid ~ .error-container .login-form_error,

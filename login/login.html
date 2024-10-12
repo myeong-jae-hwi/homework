@@ -15,7 +15,7 @@
     </header>
     <main class="main">
       <form action="/" class="login-form">
-        <input class="login-form__input" type="email" required placeholder="fastcampus" />
+        <input class="login-form__input" type="email" required placeholder="likelion@naver.com" />
         <label for="login-form__input" class="sr-only">email 입력 폼</label>
         <div class="error-container">
           <p class="login-form_error">아이디는 이메일 형식으로 입력해주세요.</p>
@@ -36,6 +36,12 @@
             <span class="checkbox_icon" tabindex="0"></span>
             <span class="checkbox_text">로그인 상태 유지</span>
           </label>
+          <span class="ipsec">
+            <a href="./pages/ip_security.html" target="_blank">
+              IP 보안
+              <span id="ip__state">OFF</span>
+            </a>
+          </span>
         </div>
       </form>
     </main>
