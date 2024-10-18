@@ -1,0 +1,209 @@
+/* @import url(card-component.css); */
+@import "../styles/reset.css";
+@import "../styles/base.css";
+@import "../styles/theme.css";
+
+body {
+  width: 100vw;
+}
+
+/* 카드 레이아웃 */
+
+.cards {
+  display: grid;
+}
+
+.card-wrapper {
+  display: grid;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.cards-second {
+  @media (min-width: 1024px) {
+    min-width: 1500px;
+  }
+}
+
+/* 카드 컴포넌트 */
+
+.card {
+  display: grid;
+  position: relative;
+  gap: 1rem;
+
+  .inner {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .text__white {
+    color: var(--white);
+  }
+
+  .text__black {
+    color: var(--black);
+  }
+
+  .btn__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    gap: var(--base-spacing);
+  }
+
+  .btn {
+    margin-block-start: var(--small-spacing);
+    padding-block: var(--x-small-spacing);
+    padding-inline: var(--small-spacing);
+    border-radius: 25px;
+    background-color: inherit;
+
+    @media (max-width: 1024px) {
+      font-size: var(--xx-small-text);
+    }
+
+    @media (min-width: 1024px) {
+      font-size: var(--x-small-text);
+    }
+  }
+
+  .btn__black {
+    background-color: var(--black);
+    border: 1px solid var(--black);
+    color: var(--white);
+  }
+
+  .btn__blue {
+    background-color: var(--blue-200);
+    border: 1px solid var(--blue-200);
+    color: var(--white);
+  }
+
+  .btn__prize__black {
+    background-color: transparent;
+    color: var(--black);
+  }
+
+  .btn__prize__blue {
+    background-color: transparent;
+    color: var(--blue-200);
+  }
+  /* ================== 소형 ================== */
+  @media (max-width: 1024px) {
+    .text {
+      margin-top: var(--large-spacing);
+      margin-block-start: var(--large-spacing);
+    }
+
+    .sm_title {
+      font-weight: bold;
+      font-size: var(--large-text);
+      margin-bottom: var(--small-spacing);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .sm_sebtitle {
+      font-size: var(--base-text);
+    }
+  }
+
+  /* ================== 대형 ================== */
+
+  @media (min-width: 1024px) {
+    .text {
+      margin-top: var(--extra-large-spacing);
+      margin-block-start: var(--extra-large-spacing);
+    }
+
+    .sm_title {
+      font-weight: bold;
+      font-size: var(--extra-large-text);
+      margin-bottom: var(--small-spacing);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .sm_sebtitle {
+      font-size: var(--medium-text);
+    }
+  }
+
+  .card__item {
+    width: 100%;
+    height: var(--size);
+  }
+
+  .card__img1 {
+    background-image: url("../products/ipad_pro_2x.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    @media (min-width: 1024px) {
+      background-image: url("../products/ipad_pro_wide_2x.jpeg");
+      aspect-ratio: 3 / 1;
+    }
+  }
+
+  .card__img2 {
+    background-image: url("../products/ipad_air_2x.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media (min-width: 1024px) {
+      background-image: url("../products/ipad_air_wide_2x.jpeg");
+      aspect-ratio: 3 / 1;
+    }
+  }
+
+  .card__img3 {
+    background-image: url("../products/iphone15_pro_2x.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media (min-width: 1024px) {
+      background-image: url("../products/iphone15_pro_wide_2x.jpeg");
+      aspect-ratio: 3 / 1;
+    }
+  }
+
+  .card__img4 {
+    background-image: url("../products/iphone15_2x.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card__img5 {
+    background-image: url("../products/apple_watch_2x.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card__img6 {
+    background-image: url("../products/macbook_air_2x.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card__img7 {
+    background-image: url("../products/ipad_pro_2x.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
