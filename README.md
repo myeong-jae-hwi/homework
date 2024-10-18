@@ -12,5 +12,5 @@
 ## Login ✅
 👉🏻 [Login](https://github.com/myeong-jae-hwi/homework/blob/main/md/login.md)
 
-## apple 🍎
+## Apple 🍎
 👉🏻 [apple](https://github.com/myeong-jae-hwi/homework/blob/main/md/apple.md)
