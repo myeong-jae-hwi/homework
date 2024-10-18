@@ -4,7 +4,7 @@
 
 ## About me 🙋‍♂️
 
-👉🏻 [About me!](https://github.com/myeong-jae-hwi/home-work/blob/main/about-me.md)
+👉🏻 [About me!](https://github.com/myeong-jae-hwi/homework/blob/main/md/about-me.md)
 
 ## Avatars 👨‍👩‍👧‍👦
 👉🏻 [Avatars](https://github.com/myeong-jae-hwi/homework/blob/main/md/avatars.md)
